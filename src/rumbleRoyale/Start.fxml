@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="scene1" onKeyPressed="#keyPressHandler" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rumbleRoyale.StartController">
+   <children>
+      <Pane fx:id="screen" prefHeight="768.0" prefWidth="1024.0">
+         <children>
+         <ImageView fitHeight="768.0" fitWidth="1024.0">
+               <image>
+                  <Image url="@../../res/images/mainmenubackground.gif" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="mainLogo" fitHeight="110.0" fitWidth="700.0" layoutX="160.0" layoutY="290.0">
+               <image>
+                  <Image url="@../../res/images/logo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="anyKey" fitHeight="44.0" fitWidth="291.0" layoutX="365.0" layoutY="446.0">
+               <image>
+                  <Image url="@../../res/images/pressanykey.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rumbleRoyale.EndScreenController">
+   <children>
+      <Pane prefHeight="768.0" prefWidth="1024.0">
+         <children>
+            <ImageView fitHeight="768.0" fitWidth="1024.0">
+               <image>
+                  <Image url="@../../res/images/mainmenubackground.gif" />
+               </image>
+            </ImageView>
+            <Button layoutX="431.0" layoutY="700.0" mnemonicParsing="false" onAction="#buttonClickHandler" prefHeight="54.0" prefWidth="163.0" text="MAIN MENU" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="146.0" fitWidth="663.0" layoutX="181.0" layoutY="14.0">
+               <image>
+                  <Image url="@../../res/images/endtitle.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="portraitPlaceholder" fitHeight="347.0" fitWidth="402.0" layoutX="312.0" layoutY="279.0">
+               <image>
+                  <Image url="@../../../../Desktop/FPT%20SHIT/maps/mapplaceholder.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="textPlaceholder" fitHeight="137.0" fitWidth="707.0" layoutX="171.0" layoutY="154.0">
+               <image>
+                  <Image url="@../../../../Desktop/FPT%20SHIT/maps/mapplaceholder.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+   </children>
+</AnchorPane>

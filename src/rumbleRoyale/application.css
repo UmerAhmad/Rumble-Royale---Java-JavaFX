@@ -1,0 +1,41 @@
+.slider{
+     -fx-color: black;
+}
+
+.slider .track {
+    -fx-control-inner-background: red;
+}
+
+
+.slider .axis {
+    -fx-tick-label-fill: red;
+}
+
+.text-area{
+	-fx-control-inner-background:#000000;
+	-fx-text-fill: white;
+	-fx-border-color: red;  
+}
+
+
+/* Hover transition, when hovered over change the colour to darker */
+.text:hover{
+	-fx-background-color: black;
+
+}
+
+.rectangle:hover{
+	-fx-background-color: white;
+}
+
+.button{
+	-fx-background-color:red;
+	-fx-opacity:0.6;
+	-fx-text-fill:white;
+}
+
+.button:hover{
+	-fx-background-color:white;
+	-fx-text-fill:black;
+	
+}
