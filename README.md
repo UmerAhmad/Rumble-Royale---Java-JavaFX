@@ -10,3 +10,5 @@ requires java 8 +, javafx
 
 example (no sound in gif): 
 
+
+![alt text](https://github.com/UmerAhmad/Rumble-Royale---Java-JavaFX/blob/master/examples/examplegif.gif)
