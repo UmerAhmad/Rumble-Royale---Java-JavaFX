@@ -1,4 +1,6 @@
 # Rumble-Royale---Java-JavaFX
+Made for Grade 12 final project.
+
 A 2 player fighting game in the style of street fighter, extensive with maps, characters, sprite animations, soundtracks, and more.
 
 Play against AI or another player locally, choose unique characters with different skills and strenghts, in a variety of maps. 
